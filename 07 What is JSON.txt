@@ -1,0 +1,16 @@
+JSON = File format used to organize/structure  data
+	Key value pair
+like JS Object
+ex var person = "Abhilash";
+ex
+{
+"name": "intro-to-node",
+version":"1.0.0",
+"main" : "index.js"
+"scripts": {
+  
+}
+"dependencies" : {
+  "superheroes": "^1.0.0"
+}
+}

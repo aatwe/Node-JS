@@ -1,0 +1,53 @@
+external = other people have written
+we 
+
+npm = node package manager : Largest collection of packages of code
+
+
+why use npm? to use reusable code from other packages in our project
+
+
+How to install npm? Bundled with node
+
+How to use npm? 
+1) terminal ->npm init
+
+2) 	 in terminal
+	package name 
+	verison(project)	
+	description(project)
+	entry point : (main JS file)
+	test command:
+	git repository
+	keywords
+	author
+	license
+
+
+In end 
+package.json is created
+
+
+Where to find all description of installed npm package?  package.json
+	will contain all external packages in dependencies{}
+	//our project depends on module
+
+
+Wher to find new npm packages? npmjs.com
+	ex superheros
+
+What does each package have?
+
+a) Install link 	//npm install superheroes	//module gets downloaded //check package.json dependencies
+b) How to use node package
+	//in index.js
+		
+		var superheroes = require('superheroes');
+		var mySuperheroName = superheroes.random();
+		console.log(mySuperheroName);
+
+	//run code
+		node index.js
+
+c) API	//.random() is an API function
+d) CLI

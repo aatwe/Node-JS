@@ -1,0 +1,7 @@
+when we install 2 packages superheroes and supervillains
+
+there are packages that these 2 depend on
+Hence so many packages inside node_modules folder
+
+
+packages -> depend on ->packages -> on package...

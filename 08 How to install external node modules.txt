@@ -1,0 +1,43 @@
+How to create your own node module?
+
+Rectange.js
+module.exports = (length, breadth, callback) => {
+    if (length <= 0 || breadth <= 0)
+        setTimeout(() => callback(new Error(
+                "Dimensions cannot be negative: length = "
+                + length + ", and breadth = "
+                + breadth), null), 5000);
+    else
+        setTimeout(() => callback(null, {
+                Perimeter: () => (2*(length+breadth)),
+                 Area:() => (length*breadth) }), 5000);
+}
+
+
+
+How ot use this node module in your own app?
+var rect = require('./rectangle');
+module.exports.Rect = function Rect(l, b) {
+    rect(l, b, (err, rectangle) => {
+        if (err)
+            console.log("There is an ERROR!!: ", err.message);
+        else {
+            console.log("Area of rectangle with dimensions length = "
+                + l + " and breadth = " + b + " : " + rectangle.Area());
+             
+            console.log("Perimeter of the rectangle with dimensions length = "
+                 + l + " and breadth = " + b + " : " + rectangle.Perimeter());
+        }
+     console.log("\n\n");
+    });
+};
+
+
+
+
+var rect = require("./module");
+rect.Rect(5, 2);
+rect.Rect(-1, 0);
+rect.Rect(12, 4);
+rect.Rect(8, 6);
+rect.Rect(3, 4);

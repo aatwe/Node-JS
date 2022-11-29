@@ -1,0 +1,25 @@
+what do we have?
+node and hyperterminal
+
+How to run JS file with node?
+How to realize difference with node?
+
+1)
+after installing node
+create a file index.js in a folder intro-to-node
+Open
+
+2)
+console.log("Hello, World!);
+
+
+3) Earlier we ran using browser in html file
+
+4) now run in computer
+	terminal
+	cd intro-to-node
+	node index.js
+
+Where is it logged?
+//in Hyperterminal logged
+How it got logged in hyperterminal? Node JS

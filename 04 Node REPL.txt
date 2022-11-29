@@ -1,0 +1,19 @@
+Read Evaluation Print Loop
+
+
+How to execute code in byte size chunks like in browser console? REPL
+
+How to install REPL? node command
+	>node
+	//inside repl
+	>console.log("Hey There")
+	//SeeOutput
+	Hey There
+
+
+How to exit REPL? 
+	a) .exit
+	b)  Ctrl + C (x2)
+
+How to clear console?
+	clear

@@ -1,0 +1,40 @@
+What is inside node? Built in modules
+Check documentations
+
+What native modules?
+//nodejs.org/api
+
+Ex FileSystem, DNS,Crypto,ECMAScriptModules etc
+
+
+
+How to use native modules? require() method
+	File System module documentation
+	->	
+		const fs = require('fs');	//fs can be named anything
+
+	If error : const avail only with latest avail version of js es6
+		//write comment as below
+		->//jshint es version:6	//tells linter that using es6
+		
+
+What is difference var vs const?
+//Can change value in var
+var a=2; 
+a = 5;
+
+//Cannot change value of const //Why use? create container that are not going to be changed / meddled with ex pi
+const a =2;
+a = 5;
+
+
+
+Ex of node use
+use JS to make changes in computer
+
+index.js
+const fs = require("fs");
+fs.copyFileSync("file1.txt", "file2.txt")	//checks current directory-> copies it to new file2.txt if doesnt exist
+
+Save -> HyperTerminal -> //in same directory node index.js
+//Check file is created

@@ -1,0 +1,22 @@
+Basically nodejs : allows to run JS on computer, earlier we ran using browser on html file
+
+What is node js?Backend technology
+
+
+Why nodejs? create Backend using JS
+	      node is super fast 
+
+Uber,ebay,twitter,netflix all use NodeJS
+
+A server has to interact with computer to get files, Node JS helps with that
+Browser JS cannot interact with computer  directly
+What node does?
+	Helps JS interact directly with computer hardware
+	//can write js code on browser + computer
+	where we wrote JS code earlier? Browser (interacts with browser/does evreything with browser)
+	Our browser js cannot access computer
+	Code cannot reach user computer and gain access to file system etc (except for Desktop applications ; where access to file system is needed)
+
+node js can run code 
+	1) on our computer
+	2) Server

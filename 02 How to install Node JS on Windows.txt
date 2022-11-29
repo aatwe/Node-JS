@@ -1,0 +1,5 @@
+1) download recommended v
+2) run installer
+
+check
+node --version
